@@ -226,7 +226,7 @@ endif
 
 " vim terminal colors
 let g:terminal_ansi_colors = [s:base1[0], s:red[0], s:green[0], s:yellow[0],
-      \ s:blue[0], s:purple[0], s:orange[0], s:base4[0], s:base2[0], s:pink[0],
+      \ s:blue[0], s:purple[0], s:orange[0], s:base4[0], s:base4[0], s:pink[0],
       \ s:teal[0], s:beige[0], s:light_blue[0], s:base3[0], s:brown[0], s:base5[0]]
 
 function! s:hi(group, fg, bg, attr)
