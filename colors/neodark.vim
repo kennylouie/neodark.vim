@@ -290,6 +290,8 @@ call s:hi('Title',                     s:orange,     '',         'none')
 call s:hi('Visual',                    s:base5,      s:base3,    '')
 call s:hi('WarningMsg',                s:red,        '',         '')
 call s:hi('WildMenu',                  s:base2,      s:green,	   '')
+call s:hi('StatusLineTerm',            s:base2,      s:purple,	 '')
+call s:hi('StatusLineTermNC',          s:base2,      s:green,	   '')
 
 " Solid bar for vertical split
 if g:neodark#solid_vertsplit == 1
